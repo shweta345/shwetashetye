@@ -17,7 +17,7 @@
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">{{ $dateFormat := "2020-01-02" }} {{ if .Site.Params.dateFormat }} {{ $dateFormat = .Site.Params.dateFormat }} {{ end }}</span></p>
+<p class="p1"><span class="s1">{{ $dateFormat := "2.1.2006" }} {{ if .Site.Params.dateFormat }} {{ $dateFormat = .Site.Params.dateFormat }} {{ end }}</span></p>
 <p class="p1"><span class="s1">{{ if .Params.date }}</span></p>
 <p class="p1"><span class="s1">{{ .Params.date.Format $dateFormat }}</span></p>
 <p class="p1"><span class="s1">{{ end }}</span></p>
