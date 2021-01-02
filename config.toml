@@ -13,7 +13,7 @@ googleAnalytics = ""
 [params]
    author = "Dmitry Kolosov"
    description = "Anubis is a simple minimalist theme for Hugo blog engine."
-   dateFormat = "2006-01-02"
+   dateFormat = "2.1.2006"
    paginationSinglePost = true
    style = "light-without-switcher"
    readMore = false
