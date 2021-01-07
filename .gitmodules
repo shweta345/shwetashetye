@@ -1,3 +1,9 @@
 [submodule "themes/themes/anubis"]
 	path = themes/themes/anubis
 	url = https://github.com/mitrichius/hugo-theme-anubis.git
+[submodule "themes/themes/casper-two"]
+	path = themes/themes/casper-two
+	url = https://github.com/eueung/hugo-casper-two.git
+[submodule "themes/casper-two"]
+	path = themes/casper-two
+	url = https://github.com/eueung/hugo-casper-two.git
