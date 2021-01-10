@@ -79,6 +79,9 @@ enabled = false
 [params.comments.commento]
 #host = "" # Paste the domain of you commento.io system
 
+[services.rss]
+  limit = 100
+
 # Navigation
 [[menu.main]]
 name = "Home"
