@@ -2,7 +2,7 @@
 title: "About Me"
 date: 2021-01-06T20:56:45+05:30
 draft: false
-image: "coolpic.jpg"
+image: "img/sphere.jpg"
 tags: ["about"]
 #categories: ["about"]
 #nomenu = ["main"]
