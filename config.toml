@@ -1,71 +1,122 @@
-baseurl         = "https://shwetashetye.com"
-theme           = "casper-two"
-languageCode    = "en-US"
-disqusShortname = ""
-paginate        = 6
-#SectionPagesMenu = "main"
+baseURL = "http://example.org/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+author = "Hugo Authors"
+title = "Vitae"
+theme = "hugo-vitae"
+paginate = 5
+enableRobotsTXT = true
+
+copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+
+pygmentsstyle = "colorful"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = ""
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"
 
 [params]
-  title       = "Shweta's Blog"
-  subtitle    = "Technical Writer writes"
+	# Use homepage.md instead of a list of posts
+	homepage = false
 
-  cover       = "profilecover.jpg"
-  description = "Test; Write; Edit; Repeat!"
-  metaDescription = ""
-  googleAnalytics = ""
-  customCSS = []
-  RSSLink = ""
+	# Add meta keywords in head part (Site Keywords or Tags of Page)
+	keywords = ["hugo","vitae","theme","static"]
 
-  #twitterName = "faketryghost"
-  #fbName = "fakeghost"
-  githubName = "shweta345"
+	# Add meta description in head part
+	description = "Vitae is a blog theme for Hugo that focuses on your content."
 
-  #logo = "prof.jpg"
-  orgName = "Shweta Shetye"
-  orgWebsite = "https://www.telematika.org"
-  orgDescription = "Here is a description placeholder for your org"
+	# Add pagetitle to homepage <title> tag
+	pagetitle = "All about static site generation"
 
-  author = "Shweta Shetye"
-  authorAvatar = "img/profilepic.jpg"
-  authorLocation = "Mumbai, IN"
-  authorWebsite = "shweta.shetye.com"
-  authorDescription = "Describe yourself.."
+	# Add a subtitle to your website
+	subtitle = "[Vitae](https://github.com/dataCobra/hugo-vitae) is a blog theme for Hugo that focuses on your content."
 
-  pageNotFoundTitle = "404 - Page not found"
+	# Activate to show authors on pages if available
+	#listAuthor = true
 
-  #casper or caspertwo
-  singleViewStyle = "casper"
+	# Add math typesetting with KaTeX (Global with this Param)
+	math = true
 
-[permalinks]
-  post = "/:slug/"
-  about = "/:slug/"
+	# Optional 80x80 avatar image.
+	avatar = "/img/vitae.jpg"
+
+	# Optional favicons for website
+	#favicon = true
+
+	# Add list of sections that should show up on the homepage
+        mainSections = ["post"]
+
+	# Add list of Sections/Types that should no be considered by RSS
+	#nofeedSections = ["post"]
+
+	# Deactivate Taxonomies for specific page types
+	#disableTaxoTypes = [""]
+
+	# Custom CSS applied to default styles. (Path could be "static/css/")
+	#customCSS = "css/custom.css"
+
+# Comments
+[params.comments]
+# Enable Comments with "true"
+enabled = false
+
+# Comment provider:
+#   disqus (https://disqus.com)
+#   commento (https://commento.io)
+#engine = "disqus"
+
+# Content types to disable comments on.
+#disableOnTypes = ["page"]
+
+[params.comments.disqus]
+#shortname = "" # Paste the shortname from your Disqus dashboard.
+
+[params.comments.commento]
+#host = "" # Paste the domain of you commento.io system
+
+# Navigation
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
 [[menu.main]]
-  name = "Main"
-  url = "/"
-  weight = 200
+name = "All Posts"
+url = "/post"
+weight = 2
 
 [[menu.main]]
-  name = "Tech"
-  url = "/tags/tech/"
-  weight = 100
+name = "About"
+url = "/about"
+weight = 3
 
 [[menu.main]]
-  name = "Life"
-  url = "/categories/life/"
-  weight = 99
+name = "Tags"
+url = "/tags"
+weight = 4
 
 [[menu.main]]
-  name = "Parenting"
-  url = "/categories/parenting/"
-  weight = 99
+name = "Categories"
+url = "/categories"
+weight = 5
 
-[[menu.main]]
-  name = "About Me"
-  url = "/categories/about/"
-  weight = 99
+# Social Menu
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/dataCobra/hugo-vitae"
 
-[[menu.main]]
-  name = "LinkedIn"
-  url = "https://linkedin.com/"
-  weight = 95
+#[[params.social]]
+#name = "Email"
+#icon = "fas fa-envelope"
+#cmd = "mailto:example@example.com"
+
+[[params.social]]
+name = "RSS"
+icon = "fas fa-rss"
+url = "/index.xml"
