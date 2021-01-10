@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Life on Brain Dumps</title>
+		<link>http://shwetashetye.com/tags/life/</link>
+		<description>Recent content in Life on shwetashetye.com</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>© Copyright notice | Vitae theme for Hugo</copyright>
+		<lastBuildDate>Wed, 06 Jan 2021 20:56:45 +0530</lastBuildDate>
+		
+		<atom:link href="http://shwetashetye.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>My First Post</title>
+			<link>http://shwetashetye.com/post/my-first-post/</link>
+			<pubDate>Wed, 06 Jan 2021 20:56:45 +0530</pubDate>
+			
+			<guid>http://shwetashetye.com/post/my-first-post/</guid>
+			<description>
+				
+				What kind of text can I use? Can I reuse stuff? 
+				
+			</description>
+		</item>
+		
+	</channel>
+</rss>
