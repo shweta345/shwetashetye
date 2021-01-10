@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <section class="list">
+    {{ partial "header" . }}
+
+    <div class="container">
+      <div class="content">
+        {{- range .Data.Pages }}
+        <article class="summary">
+          <header class="header">
+            <h2 class="header__title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+          </header>
+
+          <div class="summary__content">
+            <ul>
+            {{ range .Pages }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+            </ul>
+          </div>
+        </article>
+        {{- end }}
+        </div>
+    </div>
+  </section>
+{{ end }}
