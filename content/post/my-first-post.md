@@ -1,9 +1,6 @@
 ---
-title: "My First Post"
-date: 2021-01-06T20:56:45+05:30
-draft: false
-featured: "pic03.jpg"
-tags: ["Life"]
-categories: ["Life"]
+title: What do I write about?
+subtitle: ... or not to be?
+date: 2020-01-10
 ---
 # What kind of text can I use? Can I reuse stuff?

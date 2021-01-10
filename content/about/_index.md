@@ -1,29 +1,16 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About Brain Dumps"
+date = "2020-01-10"
 +++
 
-Hugo is a static site engine written in Go.
+Brain Dumps is literally what it says - Brain Dump of ideas and thoughts that come to me. Before I started working at Protegrity, I was active on the blogging scene under my parenting blog - www.curiousmumma.com. Unfortunately due to changing priorities, I failed to retain the domain and also backup of my posts!
 
+Life just went about, working, attending PTMs, managing the house albeit with some help :), but it was not until November last year, 2020, that I realized what was missing as part of my life - an outlet for my thoughts and opinions!
 
-It makes use of a variety of open source projects including:
+So, let me welcome you to this blog and I hope you find something that helps or resonates with you.
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+This site is created using Hugo, GitHub, and Netlify. The links to what helped me set up are as follows - 
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+* [Setting Up Github and Hugo](https://youtu.be/c7vpcqA6SEQ)
+* [Making GitHub work with Netlify](https://youtu.be/hBQlCtfRmqs)
+* [Future Imperfect Theme](https://github.com/jpescador/hugo-future-imperfect)
