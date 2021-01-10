@@ -1,8 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "http://shwetashetye.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 author = "Hugo Authors"
-title = "Vitae"
+title = "Brain Dumps"
 theme = "hugo-vitae"
 paginate = 5
 enableRobotsTXT = true
@@ -28,13 +28,13 @@ googleAnalytics = ""
 	keywords = ["hugo","vitae","theme","static"]
 
 	# Add meta description in head part
-	description = "Vitae is a blog theme for Hugo that focuses on your content."
+	description = "Test. Write. Edit. Repeat!"
 
 	# Add pagetitle to homepage <title> tag
-	pagetitle = "All about static site generation"
+	pagetitle = "All about Life, Tech, Writing, Experiences!"
 
 	# Add a subtitle to your website
-	subtitle = "[Vitae](https://github.com/dataCobra/hugo-vitae) is a blog theme for Hugo that focuses on your content."
+	subtitle = "All about Life, Tech, Writing, Experiences!"
 
 	# Activate to show authors on pages if available
 	#listAuthor = true
@@ -43,7 +43,7 @@ googleAnalytics = ""
 	math = true
 
 	# Optional 80x80 avatar image.
-	avatar = "/img/vitae.jpg"
+	avatar = "/img/profilepic.jpg"
 
 	# Optional favicons for website
 	#favicon = true
@@ -109,14 +109,19 @@ weight = 5
 [[params.social]]
 name = "Github"
 icon = "fab fa-github"
-url = "https://github.com/dataCobra/hugo-vitae"
+url = "https://github.com/shweta345"
 
-#[[params.social]]
-#name = "Email"
-#icon = "fas fa-envelope"
-#cmd = "mailto:example@example.com"
+[[params.social]]
+name = "Email"
+icon = "fas fa-envelope"
+cmd = "mailto:shweta.shetye@gmail.com"
 
 [[params.social]]
 name = "RSS"
 icon = "fas fa-rss"
 url = "/index.xml"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fab fa-linkedin-in"
+url = "https://in.linkedin.com/in/shweta-shetye-sabharwal-a669105"
