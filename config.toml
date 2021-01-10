@@ -151,7 +151,7 @@ canonifyURLs = true
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github           = "https://github.com/shweta345"
+  github           = "/shweta345"
   #gitlab           = ""
   #stackoverflow    = "" # User Number
   #bitbucket        = ""
@@ -166,7 +166,7 @@ canonifyURLs = true
   #wordpress        = ""
   #medium           = ""
   # Professional/Business Oriented Communities
-  linkedin         = "example"
+  linkedin         = "https://www.linkedin.com/in/shweta-shetye-sabharwal-a669105"
   #linkedin_company = "examplebusiness"
   #foursquare       = ""
   #xing             = ""
