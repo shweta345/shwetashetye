@@ -15,7 +15,7 @@ disableLanguages        = []
 
 [outputs]
   home                  = ["html", "json", "rss"]
-  disableKinds          = ["RSS", "taxonomy", "taxonomyTerm"]
+  #disableKinds          = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
   enableCDN             = false
