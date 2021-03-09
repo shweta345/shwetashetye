@@ -126,6 +126,14 @@ disableLanguages        = []
     url               = "/disclaimer/"
     pre               = "<i class='far fa-id-card'></i>"
     weight            = 6
+
+[[menu.main]]
+    name              = "Categories"
+    identifier        = "categories"
+    url               = "/categoriesdisclaimer/"
+    pre               = "<i class='far fa-id-card'></i>"
+    weight            = 7
+
 [Languages]
 
   [Languages.en]
