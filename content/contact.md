@@ -1,9 +1,9 @@
 +++
 author = "Shweta Shetye"
-categories = ["Hugo", "Jekyll"]
+categories = ["about"]
 date = "2020-01-10"
 description = ""
-featured = "img/pic03.jpg"
+#featured = "img/pic03.jpg"
 featuredalt = ""
 featuredpath = ""
 linktitle = ""
