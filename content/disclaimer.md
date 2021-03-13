@@ -1,6 +1,5 @@
 +++
 author = "Shweta Shetye"
-categories = ["disclaimer"]
 date = "2020-03-09"
 description = ""
 #featured = "img/pic03.jpg"

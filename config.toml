@@ -5,12 +5,36 @@ DefaultContentLanguage  = "en"
 title                   = "Shweta Shetye"
 theme                   = "Mainroad"
 [Author]
-  name = "John Doe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  name = "Shweta Shetye"
+  bio = "Writing about TW, parenting, general views."
   avatar = "img/avatar.png"
 
+[menu]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blogs"
+    title = "blog section"
+    url = "/blog/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    title = "Resume"
+    url = "/resume/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "disclaimer"
+    name = "Disclaimer"
+    title = "Disclaimer"
+    url = "/disclaimer/"
+    weight = 3
+
+
 [Params]
-  description = "John Doe's Personal blog about everything" # Description of your site
+  description = "Shweta Shetye's Personal blog about everything" # Description of your site
   opengraph = true
   twitter_cards = false
   readmore = false # Show "Read more" button in list if true
@@ -19,7 +43,7 @@ theme                   = "Mainroad"
   post_meta = ["date", "categories"] # Order of post meta information
 
 [Params.logo]
-  subtitle = "Just another site" # Logo subtitle
+  subtitle = "Write. Edit. Repeat." # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
