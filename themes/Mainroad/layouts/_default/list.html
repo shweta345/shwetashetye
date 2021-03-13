@@ -10,7 +10,7 @@
 		{{ . }}
 	</div>
 	{{- end }}
-	{{- range (.Paginator 2).Pages }}
+	{{- range (.Paginator 3).Pages }}
 		{{- .Render "summary" }}
 	{{- end }}
 </main>
