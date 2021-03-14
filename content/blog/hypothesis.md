@@ -17,7 +17,7 @@ the process of reviewing and aggregating comments a lot easier.
 
 Hypothesis is described as follows on the site:
 
-> Hypothesis is a new effort to implement an old idea, A conversation layer over the entire web that works everywhere, without  > needing implementation by any underlying site."
+"Hypothesis is a new effort to implement an old idea, A conversation layer over the entire web that works everywhere, without needing implementation by any underlying site."
 
 It is mostly marketed for a learning environment and as a collaboration tool. From a technical writing perspective, we do review and engage collaboratively with diverse set of stakeholders. Though the scope isn't specifically learning or it is (maybe), the scope definitely is to transparently review, engage, and collaborate. 
 
