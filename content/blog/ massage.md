@@ -8,6 +8,7 @@ categories = ["parenting"]
   src = "img/2019/03/pic02.jpg"
   alt = "Desert Scene"
   stretch = "stretchH"
+
 +++
 
 Pretend play or role play is nothing but encouraging children to mimic real life people and situations in safety of their environment. Now, we all know that a decade ago, there was no invasion of smartphones and TV’s, thus forcing us to engage in pretend play.
