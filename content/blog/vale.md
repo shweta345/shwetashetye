@@ -42,13 +42,13 @@ To replicate the structure:
    hierarchy as your sub folders. The directory structure would look something like this.
    
      ``` $Hugo base <dir>
-      |$themes #themes folder in the blog base directory    
-      |styles
-        ├───Microsoft
-        ├───Vocab
-        │   ├───Blog
-        │   └───Marketing
-        └───write-good
+      |$themes #themes folder in the blog base directory\    
+      |styles\
+        ├───Microsoft\
+        ├───Vocab\
+        │   ├───Blog\
+        │   └───Marketing\
+        └───write-good\
       |vale.ini```
 
 The `vale.ini` file holds information about the styles that you will use to run the linter and the `styles` directory holds the `.yml` files that enforce the rules. Learn more about these and how you can tweak as per your requirements at [Vale](https://docs.errata.ai/vale/about).
