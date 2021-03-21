@@ -60,6 +60,7 @@ For this article, I am focussing on using the standard setup as that satisfies m
 To test out Vale, I am going to use my `disclaimer.md` file. 
 
 To use Vale from the terminal:
+
 1. Open the terminal.
 2. Go to the source file folder. For my blog, it's the `contents\blog` directory.
 3. Type the following command:
@@ -76,6 +77,7 @@ To use Vale from the terminal:
 The scope of this article might be a brief introduction to the vast capabilities that Vale offers. Tweaking Vale to suit your requirements might be a bit of a learning curve. If you are undecided, consider these points:
 
 **Pros:**
+
 - Free distribution if you go for Vale and not the Vale server.
 - Ready to use Microsoft styles for tech writing projects.
 - Option to customize linting specific to your standards
@@ -83,6 +85,7 @@ The scope of this article might be a brief introduction to the vast capabilities
 - Supports multiple sources (.md, .rst, .adoc, and .html)
 
 **Cons:**
+
 - Learning curve
 - For the Vale server, which is powerful, there is a cost involved.
 
