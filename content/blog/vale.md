@@ -23,6 +23,7 @@ Though there are linters available, through research the most popular and the on
 I recommend reading up on Vale and installing the tool based on your operating system. Since I am using Mac OS, the instructions are for this operating system.
 
 To install vale:
+
 1. Open a terminal.
 2. Type the following command.
    ` brew install vale`
@@ -34,6 +35,7 @@ To install vale:
 What you did in the preceding section was install the application. This will enable you to execute commands and generate reports, but to help vale understand what the criteria must be, you need to replicate the directory structure.
 
 To replicate the structure:
+
 1. Download the sample repository structure from [GitHub](https://github.com/errata-ai/vale-boilerplate).
 2. Open the `vale-boilerplate` folder.
 3. Copy the `vale.ini` and the `styles` directory to your blog base directory. This means both the files are at the same      
